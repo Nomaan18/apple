@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: aliceblue;
+    display: block;
+    font-size: 17px;
+    line-height: 1.47859;
+    font-weight: 460;
+    letter-spacing: -0.022em;
+    font-family:  "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+header{
+     display: flex;
+     height: 45px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     background-color: rgb(117, 117, 117);
+
+}
+
+header ul {
+    display: flex ;
+    text-decoration: none;
+    list-style: none;
+    
+}
+header ul li{
+    margin: 6px;
+}
+header ul li a{
+  padding: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 13px;
+    
+}
+main{
+    height: 500px;
+    background-image: url(assets/images/hero_macbook_air_15_midnight__ct0pgwizvree_largetall_2x.jpg);
+    background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 50px; 
+    padding-top: 30px; 
+}
+h2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.link{
+    text-align: center;
+    padding: 20px;
+    
+}
+.link a{
+    text-decoration: none;
+    color: mediumblue;
+}
+.learn{
+    padding-right: 120px;
+}
+.photo img{
+    width: 100%;
+    margin: auto;
+}
+.logo{
+    height: 18px;
+    padding-bottom: 2px;
+}
+.search{
+  height: 18px;  
+}
+.bag{
+    height: 18px;
+    margin-left: 10px;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(assets/images/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+}
+.watch{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url(assets/images/watch\ 9.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+}
+.watch img{
+    margin-left: 860px;
+    margin-top: 40px;
+ }
+.watch h2{
+    color: white;
+}
+
+.unit img{
+  display: block;
+  margin: auto;
+  height: 400px;
+  
+}
+.fcontainer{
+    background-color: #f5f5f7;
+    display: flex;
+    
+
+}
+.trade{
+    height: 500px;
+    width: 50%;
+    margin-top: 12px;
+    background-image: url(assets/images/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+     
+         
+}
+.flogo img{
+   display: block;
+   margin: auto;
+   height: 30px;
+   padding-top: 15px;
+}
+.trade h4{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter; 
+}
+.card{
+    height: 500px;
+    width: 50%;
+    margin-top: 12px;
+    margin-left: 15px;
+    background-image: url(assets/images/tile__cauwwcyyn9hy_large_2x.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+}
+
+.card h4{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter; 
+}
+.card link{
+    gap: 20px;
+}
+.link a{
+    padding-right: 20px;
+}
+
+.fcon{
+ background-color: #f5f5f7;
+   display: flex;
+}
+.airpods{
+    height: 500px;
+    width: 50%;
+    margin-top: 12px;
+    background-image: url(assets/images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+}
+.airpods h4{
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 20px;
+}
+.airpods h5{
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 5px;
+}
+.watch9{
+    height: 500px;
+    width: 50%;
+    margin-top: 12px;
+    margin-left: 15px;
+    background-image: url(assets/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg);
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position: center;
+}
+.watch9 h4{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: lighter; 
+}
+.wlogo img{
+    display: block;
+   margin: auto;
+   height: 50px;
+   padding-top: 15px;
+
+}
+
+.footer{
+    text-align: center;
+    padding-left: max(16px,env(safe-area-inset-left));
+    padding-right: max(16px,env(safe-area-inset-right));
+    
+}
+.footer ul{
+    list-style: none;
+   margin: 10px 200px;
+   
+}
+.footer ul li{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
